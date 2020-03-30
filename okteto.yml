@@ -12,3 +12,5 @@ securityContext:
     - SYS_PTRACE            # required by the go debugger
 forward:
   - 8080:8080
+persistentVolume:
+  enabled: true
