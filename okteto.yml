@@ -1,11 +1,11 @@
 name: hello-world
-image: okteto/golang:1
+image: ramiro/hello-world:golang-remote
 workdir: /okteto
 command: ["bash"]
 volumes:
-  - /go/pkg/                # persist go dependencies
-  - /root/.cache/go-build/  # persist go build cache
-  - /root/.vscode-server    # persist vscode extensions
+  - /go/pkg/                           # persist go dependencies
+  - /root/.cache/go-build/             # persist go build cache
+  - /root/.vscode-server/extensions    # persist vscode extensions
 securityContext:
   capabilities:
     add:
