@@ -1,5 +1,5 @@
 name: hello-world
-image: okteto/golang:1
+image: okteto/golang:1.16
 autocreate: true
 workdir: /okteto
 command: ["bash"]
