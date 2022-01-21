@@ -1,6 +1,6 @@
 FROM golang:buster
 
-WORKDIR /app
+WORKDIR /usr/src/pp
 ADD . .
 RUN go build -o /usr/local/bin/hello-world
 
