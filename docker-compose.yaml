@@ -1,5 +1,5 @@
 services:
-  vote:
+  hello:
     image: okteto.dev/vscode-remote-go
     build: .
     ports:
