@@ -1,7 +1,7 @@
 name: hello-world
-image: okteto/golang:1.16
-autocreate: true
+image: okteto/golang:1
 workdir: /okteto
+autocreate: true
 command: ["bash"]
 volumes:
   - /go/pkg/                # persist go dependencies

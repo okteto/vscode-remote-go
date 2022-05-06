@@ -1,0 +1,6 @@
+services:
+  hello-world:
+    image: okteto.dev/vscode-remote-go
+    build: .
+    ports:
+      - 8080:8080
