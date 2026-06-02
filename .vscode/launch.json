@@ -1,12 +1,14 @@
 {
   "version": "0.2.0",
   "configurations": [
-      {
-          "name": "Launch file",
-          "type": "go",
-          "request": "launch",
-          "mode": "debug",
-          "program": "${workspaceFolder}/main.go"
-      }
+    {
+      "name": "Connect to okteto",
+      "type": "go",
+      "request": "attach",
+      "mode": "remote",
+      "remotePath": "/usr/src/app",
+      "port": 2345,
+      "host": "127.0.0.1"
+    }
   ]
 }
